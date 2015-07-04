@@ -1,0 +1,14 @@
+public class LoopEx3{
+    public static void main(String args[]){
+        int i;
+        int j;
+        for (i = 0, j = 0 ; j < 1 ; ++j , i++){
+            System.out.println( i + " " + j );
+        }
+        System.out.println( i + " " + j );
+    }
+}
+
+//Resultado:
+// 0 0
+// 1 1
